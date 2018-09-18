@@ -1,0 +1,19 @@
+Group,Stu_ID,HW1,HW2,HW3
+Group 1,1,10,20,17
+Group 1,2,10,20,13
+Group 1,3,10,20,10
+Group 1,4,10,20,13
+Group 1,5,10,20,14
+Group 2,6,20,20,11
+Group 2,7,20,20,16
+Group 2,8,20,20,14
+Group 2,9,20,20,15
+Group 2,10,20,20,13
+,,,,
+
+g_plot <- g_plot + theme(plot.title = element_text(size = 40))
+g_plot <- g_plot + theme  (panel.background = element_rect(fill = NA),
+  panel.grid.major = element_line(colour = "grey50"),
+  panel.ontop = TRUE
+)
+g_plot
